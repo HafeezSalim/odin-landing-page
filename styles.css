@@ -1,0 +1,14 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+
+}
+
+.header {
+    display: flex;
+    max-width: 80vw;
+    margin: 15px auto 0px auto;
+    justify-content: space-between;
+}
