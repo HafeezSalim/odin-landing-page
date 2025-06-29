@@ -59,7 +59,61 @@ a {
 
 /*START CONTENT ROW 1 STYLE*/
 
+.awesome-website-background {
+    background-color: #1F2937;
+}
 
+.awesome-website {
+    width: 80vw;
+    display: flex;
+    gap: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.awesome-website-description {
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex: 1 0 auto;
+}
+
+.description-title {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.description-content {
+    font-size: 18px;
+    color:#E5E7EB
+}
+
+.signup-button {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.button1 {
+    height: 30px;
+    width: 100px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-weight: bold;
+    border-style: none;
+    border-radius: 5px;
+}
+
+.image-placeholder {
+    max-width: 50%;
+    background-color: grey;
+    color: #E5E7EB;
+    flex: 1 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 /*END CONTENT ROW 1 STYLE*/
 
