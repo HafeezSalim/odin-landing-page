@@ -61,6 +61,8 @@ a {
 
 .awesome-website-background {
     background-color: #1F2937;
+    display: flex;
+    align-items: center;
 }
 
 .awesome-website {
@@ -129,12 +131,15 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .images-subtexts-group {
     display: flex;
     gap: 20px;
     justify-content: center;
+    align-items: center;
 }
 
 .image-subtext-pair {
@@ -164,6 +169,8 @@ a {
 
 .insipiring-quote-background {
     background-color: #E5E7EB;
+    display: flex;
+    align-items: center;
 }
 
 .inspiring-quote {
@@ -172,6 +179,7 @@ a {
     margin-right: auto;
     display: flex;
     flex-direction: column;
+    padding: 30px 100px;
 }
 
 .quote-content {
@@ -190,6 +198,11 @@ a {
 /*END CONTENT ROW 3 STYLE*/
 
 /*START CONTENT ROW 4 STYLE*/
+
+.sign-up-background {
+    display: flex;
+    align-items: center;
+}
 
 .sign-up {
     background-color: #3882F6;
@@ -242,3 +255,13 @@ a {
 }
 
 /*END FOOTER STYLE*/
+
+/*TOUCH UP*/
+
+.awesome-website-background,
+.random-info-background,
+.insipiring-quote-background,
+.sign-up-background {
+    flex: 1;
+    min-height: 22vh;
+}
