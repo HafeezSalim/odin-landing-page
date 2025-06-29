@@ -90,11 +90,6 @@ a {
     color:#E5E7EB
 }
 
-.signup-button {
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
 .button1 {
     height: 30px;
     width: 100px;
@@ -196,7 +191,40 @@ a {
 
 /*START CONTENT ROW 4 STYLE*/
 
+.sign-up {
+    background-color: #3882F6;
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 100px;
+}
 
+.signup-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.signup-content {
+    color: #E5E7EB;
+}
+
+.signup-button2 {
+    align-self: stretch;
+}
+
+.button2 {
+    height: 100%;
+    width: 100px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-weight: bold;
+    border: 1px solid #F9FAF8;
+    border-radius: 5px;
+}
 
 /*END CONTENT ROW 4 STYLE*/
 
